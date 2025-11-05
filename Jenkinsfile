@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git url: https://github.com/Mohammed-Amaan-Ahmed/Terraform.git', branch: 'main'
+        git url: 'https://github.com/Mohammed-Amaan-Ahmed/Terraform.git', branch: 'main'
       }
     }
     stage('Terraform Init') {
